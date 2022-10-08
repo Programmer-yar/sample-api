@@ -1,10 +1,10 @@
 runtime: python39
 
 beta_settings:
-  cloud_sql_instances: ux360-1:us-central1:task-logger-db
+  cloud_sql_instances: ux360-14:us-central1:lamp-mysql-db
   
 env_variables:
   DB_NAME: "task_logger"
-  DB_SOCKET: "/cloudsql/ux360-1:us-central1:task-logger-db"
-  DB_PSWD: "password"
-  DB_USER: "root"
+  DB_SOCKET: "/cloudsql/ux360-14:us-central1:lamp-mysql-db"
+  DB_PSWD: "yar"
+  DB_USER: "mysql-testpass-123"
